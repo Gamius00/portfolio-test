@@ -1,0 +1,31 @@
+.contactfield {
+    background-color: rgb(44, 44, 44);
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    transition: .4s;
+}
+
+.contactfield:hover {
+    height: 170px;
+    width: 800px;
+}
+
+.contentflexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.headtext {
+    position: absolute;
+}
+
+.contacttext {
+    position: relative;
+    margin-top: 100px;
+    overflow: hidden;
+}

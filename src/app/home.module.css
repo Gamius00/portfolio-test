@@ -1,0 +1,31 @@
+.portfoliotext {
+    font-size: 25px;
+    color: #d1aece;
+}
+
+.hello {
+    margin-left: 10%;
+    margin-top: 100px;
+    color: #4c2a49;
+    display: flex;
+    justify-self: space-between;
+}
+
+.fabiustext {
+     margin-bottom: 5px;
+     font-size: 40px;
+}
+
+.intern {
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.picturecontainer {
+    margin-left: 0%;
+}
+
+.content {
+    width: 80%;
+}
