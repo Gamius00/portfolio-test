@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState }  from 'react'
+import React, { useState, useEffect }  from 'react'
 import style from "./navbar.module.css"
 import Image from "next/image";
 
@@ -8,24 +8,32 @@ export default function Navbar() {
 
   const [imageSrc, setImageSrc] = useState('/menu2.png');
 
-  function handleScroll() {
-    let windowY = window.scrollY || window.pageYOffset;
-    console.log(windowY)
+  useEffect(() => {
+    function handleScroll() {
+        let windowY = window.scrollY || window.pageYOffset;
+        console.log(windowY);
 
-    if(windowY > 0) {
-      const menudiv = document.getElementById("menudiv")
-      menudiv.style.backgroundColor = "#d1aece";
-      menudiv.style.boxShadow = "0 0 2px #d1aece,0 0 4px #d1aece,0 0 6px #d1aece,0 0 4px #d1aece,0 0 8px #d1aece,0 0 10px #d1aece"
-    }
-
-    else if(windowY == 0) {
-      const menudiv = document.getElementById("menudiv")
-      if(imageSrc == "/menu2.png") {
-        menudiv.style.backgroundColor = "transparent";
-        menudiv.style.boxShadow = "none"; 
+        if (windowY > 0) {
+          const menudiv = document.getElementById("menudiv");
+          if (menudiv) {
+            menudiv.style.backgroundColor = "#d1aece";
+            menudiv.style.boxShadow = "0 0 2px #d1aece, 0 0 4px #d1aece, 0 0 6px #d1aece, 0 0 4px #d1aece, 0 0 8px #d1aece, 0 0 10px #d1aece";
+          }
+        } else if (windowY === 0) {
+          const menudiv = document.getElementById("menudiv");
+          if (menudiv && imageSrc === "/menu2.png") {
+            menudiv.style.backgroundColor = "transparent";
+            menudiv.style.boxShadow = "none";
+          }
       }
     }
-  }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [imageSrc]);
 
   const handleclick = () => {
     const menudiv = document.getElementById("menudiv"); 
@@ -37,9 +45,6 @@ export default function Navbar() {
       menudiv.style.height = "70px";
     }
   }
-  
-  window.onscroll = handleScroll;
-  
 
   return (
     <div>
