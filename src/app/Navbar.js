@@ -15,25 +15,18 @@ export default function Navbar() {
 
         if (windowY > 0) {
           const menudiv = document.getElementById("menudiv");
-          if (menudiv) {
-            menudiv.style.backgroundColor = "#d1aece";
-            menudiv.style.boxShadow = "0 0 2px #d1aece, 0 0 4px #d1aece, 0 0 6px #d1aece, 0 0 4px #d1aece, 0 0 8px #d1aece, 0 0 10px #d1aece";
-          }
+          menudiv.style.backgroundColor = "#d1aece";
+          menudiv.style.boxShadow = "0 0 2px #d1aece, 0 0 4px #d1aece, 0 0 6px #d1aece, 0 0 4px #d1aece, 0 0 8px #d1aece, 0 0 10px #d1aece";
+        
         } else if (windowY === 0) {
           const menudiv = document.getElementById("menudiv");
-          if (menudiv && imageSrc === "/menu2.png") {
-            menudiv.style.backgroundColor = "transparent";
-            menudiv.style.boxShadow = "none";
-          }
+          menudiv.style.backgroundColor = "transparent";
+          menudiv.style.boxShadow = "none";
+
       }
     }
 
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [imageSrc]);
+    window.onscroll = handleScroll})
 
   const handleclick = () => {
     const menudiv = document.getElementById("menudiv"); 
