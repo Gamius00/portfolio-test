@@ -139,3 +139,31 @@
     padding: 4px;
     border-radius: 4px; 
 }
+
+@media screen and (max-width: 750px) {
+   .content {
+    display: block;
+   }
+
+   .content2 {
+    display: block;
+   }
+
+   .content div {
+    margin-left: 16%;
+   }
+   
+   .content2 div {
+    margin-left: 16%;
+   }
+}
+
+@media screen and (max-width: 750px) { 
+    .content div {
+     margin-left: 12%;
+    }
+    
+    .content2 div {
+     margin-left: 12%;
+    }
+ }
