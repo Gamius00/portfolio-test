@@ -19,7 +19,7 @@
     display: flex;
     border-radius: 4px;
     justify-content: center;
-    color: #4c2a49;
+    color: #000000;
 }
 
 .menu {
@@ -38,13 +38,15 @@
     .menudiv {
         display: flex;
         justify-content: right; 
-        width: 90%;
+        width: 17%;
         height: 70px;
+        background-color: #5e5e5e;
         position: fixed;
         top: 10px; 
         z-index: 99;
         border-radius: 10px;
-        transition: background-color 0.5s ease, box-shadow 0.5s ease, height 0.5s ease;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease, height 0.3s ease-out, width 0.3s ease-out;
+        margin-right: 10px;
     }
 
     .menu {
@@ -56,6 +58,6 @@
 
     .navcenter {
         display: flex;
-        justify-content: center;
+        justify-content: end;
     }
 }

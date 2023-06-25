@@ -1,12 +1,12 @@
 .portfoliotext {
     font-size: 1.4em;
-    color: #d1aece;
+    color: #cccccc;
 }
 
 .hello {
     margin-left: 10%;
     margin-top: 100px;
-    color: #4c2a49;
+    color: #201e20;
     display: flex;
     justify-self: space-between;
 }

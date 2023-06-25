@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Navbar() {
 
-  const [imageSrc, setImageSrc] = useState('/menu2.png');
+  const [imageSrc, setImageSrc] = useState('/menu3.png');
 
   useEffect(() => {
     function handleScroll() {
@@ -15,13 +15,15 @@ export default function Navbar() {
 
         if (windowY > 0) {
           const menudiv = document.getElementById("menudiv");
-          menudiv.style.backgroundColor = "#d1aece";
-          menudiv.style.boxShadow = "0 0 2px #d1aece, 0 0 4px #d1aece, 0 0 6px #d1aece, 0 0 4px #d1aece, 0 0 8px #d1aece, 0 0 10px #d1aece";
+          menudiv.style.backgroundColor = "#5e5e5e";
+          menudiv.style.boxShadow = "0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 4px white, 0 0 8px white, 0 0 10px white";
         
         } else if (windowY === 0) {
           const menudiv = document.getElementById("menudiv");
-          menudiv.style.backgroundColor = "transparent";
-          menudiv.style.boxShadow = "none";
+          if(imageSrc == "/menu3.png") {
+            menudiv.style.backgroundColor = "transparent";
+            menudiv.style.boxShadow = "none";
+          }
 
       }
     }
@@ -29,13 +31,24 @@ export default function Navbar() {
     window.onscroll = handleScroll})
 
   const handleclick = () => {
+    let windowY = window.scrollY || window.pageYOffset;
     const menudiv = document.getElementById("menudiv"); 
-    if (imageSrc === '/menu2.png') {
-      setImageSrc('/cross.png');
+    if (imageSrc === '/menu3.png') {
+      setImageSrc('/cross2.png');
+      if(windowY == 0) {
+        menudiv.style.backgroundColor = "#5e5e5e";
+        menudiv.style.boxShadow = "0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 4px white, 0 0 8px white, 0 0 10px white";
+      }
       menudiv.style.height = "200px";
+      menudiv.style.width = "95%";
     } else {
-      setImageSrc('/menu2.png');
+      setImageSrc('/menu3.png');
+      if(windowY == 0) {
+        menudiv.style.backgroundColor = "transparent";
+        menudiv.style.boxShadow = "none";
+      }
       menudiv.style.height = "70px";
+      menudiv.style.width = "17%";
     }
   }
 

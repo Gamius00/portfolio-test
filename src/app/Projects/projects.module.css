@@ -1,11 +1,13 @@
 .content {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .content2 {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .passwordgenerator {
@@ -26,7 +28,7 @@
 .passwordgeneratorbutton {
     margin-top: 160px;
     margin-left: 30px;
-    background-color: rgb(86, 0, 167);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px;
     position: absolute;
@@ -36,7 +38,7 @@
     position: absolute;
     margin-top: 160px;
     margin-left: 85px;
-    background-color: rgb(125, 123, 255);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px;
 }
@@ -61,7 +63,7 @@
 .portfoliobutton {
     margin-top: 160px;
     margin-left: 30px;
-    background-color: rgb(86, 0, 167);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px;
     position: absolute;
@@ -71,7 +73,7 @@
     position: absolute;
     margin-top: 160px;
     margin-left: 85px;
-    background-color: rgb(125, 123, 255);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px;
 }
@@ -99,7 +101,7 @@
     position: absolute;
     margin-top: 360px;
     margin-left: 60px;
-    background-color: rgb(125, 123, 255);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px; 
 }
@@ -126,7 +128,7 @@
     position: absolute;
     margin-top: 360px;
     margin-left: 90px;
-    background-color: rgb(125, 123, 255);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px; 
 } 
@@ -135,7 +137,7 @@
     position: absolute;
     margin-top: 360px;
     margin-left: 170px;
-    background-color: rgb(201, 108, 2);
+    background-color: #a7e7d9;
     padding: 4px;
     border-radius: 4px; 
 }
