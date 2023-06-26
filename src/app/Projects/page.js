@@ -32,7 +32,6 @@ export default function page() {
       <div className={style.kotlinapp}> 
       <Image src="/kotlin-app.png" width={220} height={100} className={style.kotlinappimage}/>
       <p className={style.kotlinapptext}> Kotlin App</p>
-      <p className={style.kotlinapplanguages}> Kotlin</p>
       </div>
       </div>
 

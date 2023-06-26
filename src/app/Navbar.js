@@ -13,6 +13,14 @@ export default function Navbar() {
         let windowY = window.scrollY || window.pageYOffset;
         console.log(windowY);
 
+        if (imageSrc == "/cross2.png") {
+          menudiv.style.backgroundColor = "transparent";
+          menudiv.style.boxShadow = "none";
+          menudiv.style.height = "70px";
+          menudiv.style.width = "70px";
+          setImageSrc('/menu3.png');
+        }
+
         if (windowY > 0) {
           const menudiv = document.getElementById("menudiv");
           menudiv.style.backgroundColor = "#5e5e5e";
@@ -33,14 +41,20 @@ export default function Navbar() {
   const handleclick = () => {
     let windowY = window.scrollY || window.pageYOffset;
     const menudiv = document.getElementById("menudiv"); 
+    const homebutton = document.getElementById("homebutton"); 
+    const projectbutton = document.getElementById("projectbutton"); 
+    const contactbutton = document.getElementById("contactbutton");
     if (imageSrc === '/menu3.png') {
       setImageSrc('/cross2.png');
       if(windowY == 0) {
         menudiv.style.backgroundColor = "#5e5e5e";
         menudiv.style.boxShadow = "0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 4px white, 0 0 8px white, 0 0 10px white";
       }
-      menudiv.style.height = "200px";
+      menudiv.style.height = "290px";
       menudiv.style.width = "95%";
+      homebutton.style.display = "flex";
+      projectbutton.style.display = "flex";  
+      contactbutton.style.display = "flex";  
     } else {
       setImageSrc('/menu3.png');
       if(windowY == 0) {
@@ -48,7 +62,10 @@ export default function Navbar() {
         menudiv.style.boxShadow = "none";
       }
       menudiv.style.height = "70px";
-      menudiv.style.width = "17%";
+      menudiv.style.width = "70px";
+      homebutton.style.display = "none"; 
+      projectbutton.style.display = "none"; 
+      contactbutton.style.display = "none"; 
     }
   }
 
@@ -62,6 +79,10 @@ export default function Navbar() {
     <div className={style.navcenter}>
     <div id='menudiv' className={style.menudiv}>
     <Image onClick={handleclick} id='menu' src={imageSrc} width={40} height={40} className={style.menu}/>
+    <a id='homebutton' className={style.homebutton} href='/'>Home</a>
+    <a id='projectbutton' className={style.projectbutton} href='/Projects'>Projects</a>
+    <a id='contactbutton' className={style.contactbutton} href='/Contact'>Contact</a>
+
     </div>
     </div>
     </div>

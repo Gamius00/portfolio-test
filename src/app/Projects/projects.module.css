@@ -28,7 +28,7 @@
 .passwordgeneratorbutton {
     margin-top: 160px;
     margin-left: 30px;
-    background-color: #a7e7d9;
+    background-color: #92ffe7;
     padding: 4px;
     border-radius: 4px;
     position: absolute;
@@ -38,7 +38,7 @@
     position: absolute;
     margin-top: 160px;
     margin-left: 85px;
-    background-color: #a7e7d9;
+    background-color: #7bf0ff;
     padding: 4px;
     border-radius: 4px;
 }
@@ -73,7 +73,7 @@
     position: absolute;
     margin-top: 160px;
     margin-left: 85px;
-    background-color: #a7e7d9;
+    background-color: #7bf0ff;
     padding: 4px;
     border-radius: 4px;
 }
@@ -100,8 +100,8 @@
 .kotlinapptext {
     position: absolute;
     margin-top: 360px;
-    margin-left: 60px;
-    background-color: #a7e7d9;
+    margin-left: 100px;
+    background-color: #7bf0ff;
     padding: 4px;
     border-radius: 4px; 
 }
@@ -128,19 +128,10 @@
     position: absolute;
     margin-top: 360px;
     margin-left: 90px;
-    background-color: #a7e7d9;
+    background-color: #7bf0ff;
     padding: 4px;
     border-radius: 4px; 
 } 
-
-.kotlinapplanguages {
-    position: absolute;
-    margin-top: 360px;
-    margin-left: 170px;
-    background-color: #a7e7d9;
-    padding: 4px;
-    border-radius: 4px; 
-}
 
 @media screen and (max-width: 750px) {
    .content {
@@ -158,14 +149,15 @@
    .content2 div {
     margin-left: 16%;
    }
+   
 }
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 350px) { 
     .content div {
-     margin-left: 12%;
+        margin-left: 20px;
     }
     
     .content2 div {
-     margin-left: 12%;
+        margin-left: 20px;
     }
  }
