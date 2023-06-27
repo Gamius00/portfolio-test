@@ -9,12 +9,13 @@ export default function page() {
   return (
     <div>
         <Navbar/>
-
       <div className={style.contentflexbox}>
-        <div className={style.contactfield}>
-          <p className={style.headtext}>Test</p>
-          <p className={style.contacttext}>Test2</p>
-        </div>
+      <div className={style.contentbox}>
+        <p>Discord ...</p>
+        <p>Email: ...</p>
+        
+        <p>Test</p>
+      </div>
       </div>
     </div>
   )

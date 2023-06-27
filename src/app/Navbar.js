@@ -72,17 +72,17 @@ export default function Navbar() {
   return (
     <div>
     <div className={style.navbar}>
-        <a href='/'>Home</a>
-        <a href='/Projects' >Projects</a>
-        <a href='/Contact' >Contact</a>
+        <a className={style.navelement} href='/'><div><Image src="/home.png" width={30} height={7} className={style.homeimg}/> <p>Home</p></div></a>
+        <a className={style.navelement} href='/Projects' >Projects</a>
+        <a className={style.navelement} href='/Contact' >Contact</a>
+        <a className={style.views} href="https://hits.sh/portfolio-fabius.vercel.app/"><img alt="Hits" src="https://hits.sh/portfolio-fabius.vercel.app.svg?style=for-the-badge&label=Views&extraCount=5&color=858585"/></a>
     </div>
     <div className={style.navcenter}>
     <div id='menudiv' className={style.menudiv}>
     <Image onClick={handleclick} id='menu' src={imageSrc} width={40} height={40} className={style.menu}/>
-    <a id='homebutton' className={style.homebutton} href='/'>Home</a>
+    <a id='homebutton' className={style.homebutton} href='/'> Home</a>
     <a id='projectbutton' className={style.projectbutton} href='/Projects'>Projects</a>
     <a id='contactbutton' className={style.contactbutton} href='/Contact'>Contact</a>
-
     </div>
     </div>
     </div>
