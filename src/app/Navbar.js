@@ -44,17 +44,19 @@ export default function Navbar() {
     const homebutton = document.getElementById("homebutton"); 
     const projectbutton = document.getElementById("projectbutton"); 
     const contactbutton = document.getElementById("contactbutton");
+    const views = document.getElementById("views");
     if (imageSrc === '/menu3.png') {
       setImageSrc('/cross2.png');
       if(windowY == 0) {
         menudiv.style.backgroundColor = "#5e5e5e";
         menudiv.style.boxShadow = "0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 4px white, 0 0 8px white, 0 0 10px white";
       }
-      menudiv.style.height = "290px";
+      menudiv.style.height = "310px";
       menudiv.style.width = "95%";
       homebutton.style.display = "flex";
       projectbutton.style.display = "flex";  
       contactbutton.style.display = "flex";  
+      views.style.display = "flex";  
     } else {
       setImageSrc('/menu3.png');
       if(windowY == 0) {
@@ -66,6 +68,7 @@ export default function Navbar() {
       homebutton.style.display = "none"; 
       projectbutton.style.display = "none"; 
       contactbutton.style.display = "none"; 
+      views.style.display = "none";  
     }
   }
 
@@ -83,6 +86,7 @@ export default function Navbar() {
     <a id='homebutton' className={style.homebutton} href='/'> Home</a>
     <a id='projectbutton' className={style.projectbutton} href='/Projects'>Projects</a>
     <a id='contactbutton' className={style.contactbutton} href='/Contact'>Contact</a>
+    <a id='views' className={style.views2} href="https://hits.sh/portfolio-fabius.vercel.app/"><img alt="Hits" src="https://hits.sh/portfolio-fabius.vercel.app.svg?style=for-the-badge&label=Views&extraCount=5&color=858585"/></a>
     </div>
     </div>
     </div>

@@ -32,22 +32,6 @@
     justify-content: center;
 }
 
-.menudiv a{
-    display: none;
-    position: absolute;
-    background-color: #8d8d8d;
-    height: 55px;
-    width: 80%;
-    padding-top: 18px;
-    justify-content: center;
-    font-size: 1.1em;
-    transition: 0.3s;
-    margin-right: 10%;
-    border-radius: 9px;
-    color: #000000;
-
-}
-
 .menudiv a:hover {
     background-color: #818181;
 }
@@ -69,14 +53,58 @@
 
 .homebutton {
     margin-top: 80px;
+    display: none;
+    position: absolute;
+    background-color: #8d8d8d;
+    height: 55px;
+    width: 80%;
+    padding-top: 18px;
+    justify-content: center;
+    font-size: 1.1em;
+    transition: 0.3s;
+    margin-right: 10%;
+    border-radius: 9px;
+    color: #000000;
 }
 
 .projectbutton {
     margin-top: 150px;
+    display: none;
+    position: absolute;
+    background-color: #8d8d8d;
+    height: 55px;
+    width: 80%;
+    padding-top: 18px;
+    justify-content: center;
+    font-size: 1.1em;
+    transition: 0.3s;
+    margin-right: 10%;
+    border-radius: 9px;
+    color: #000000;
 }
 
 .contactbutton {
     margin-top: 220px;
+    display: none;
+    position: absolute;
+    background-color: #8d8d8d;
+    height: 55px;
+    width: 80%;
+    padding-top: 18px;
+    justify-content: center;
+    font-size: 1.1em;
+    transition: 0.3s;
+    margin-right: 10%;
+    border-radius: 9px;
+    color: #000000;
+}
+
+
+.views2 {
+    position: absolute;
+    margin-top: 20px;
+    left: 10%; 
+    width: 110px;
 }
 
 @media screen and (max-width: 750px) {
@@ -109,4 +137,5 @@
         display: flex;
         justify-content: end;
     }
+
 }
