@@ -72,9 +72,9 @@ export default function Navbar() {
   return (
     <div>
     <div className={style.navbar}>
-        <a className={style.navelement} href='/'><div><Image src="/home.png" width={30} height={7} className={style.homeimg}/> <p>Home</p></div></a>
-        <a className={style.navelement} href='/Projects' >Projects</a>
-        <a className={style.navelement} href='/Contact' >Contact</a>
+        <a className={style.navelement} href='/'><div><Image src="/home.png" width={30} height={7} className={style.img}/> <p>Home</p></div></a>
+        <a className={style.navelement} href='/Projects' ><div><Image src="/document.png" width={30} height={7} className={style.img}/> <p>Projects</p></div></a>
+        <a className={style.navelement} href='/Contact' ><div><Image src="/envelope.png" width={30} height={7} className={style.img}/> <p>Contact</p></div></a>
         <a className={style.views} href="https://hits.sh/portfolio-fabius.vercel.app/"><img alt="Hits" src="https://hits.sh/portfolio-fabius.vercel.app.svg?style=for-the-badge&label=Views&extraCount=5&color=858585"/></a>
     </div>
     <div className={style.navcenter}>
