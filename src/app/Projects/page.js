@@ -25,11 +25,14 @@ export default function page() {
       <p className={style.passwordgeneratortext}>Password Generator</p>
       </div>
 
-      <dialog ref={dialogRef}>
-        <p>Greetings, one and all!</p>
+      <dialog className={style.dialogpg} ref={dialogRef}>
+        <div>
+        <h1>Password Generator</h1>
         <form method="dialog">
-              <button>OK</button>
+              <button className={style.closedialog}><Image id='menu' src="/cross2.png" width={30} height={30} className={style.menu}/></button>
             </form>
+            </div>
+            <p>Programminglanguages</p>
       </dialog>
 
       <div className={style.portfolio}> 

@@ -133,6 +133,26 @@
     border-radius: 4px; 
 } 
 
+.dialogpg div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogpg {
+    height: 300px; 
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(87, 87, 87);
+}
+
+.dialogpg h1 {
+    background-color: #7bf0ff;
+    height: 33px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
 @media screen and (max-width: 750px) {
    .content {
     display: block;
