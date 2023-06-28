@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from '../Navbar'
 import style from "./contact.module.css"
 
@@ -13,7 +13,6 @@ export default function page() {
       <div className={style.contentbox}>
         <p>Discord ...</p>
         <p>Email: ...</p>
-        
         <p>Test</p>
       </div>
       </div>
