@@ -133,12 +133,12 @@
     border-radius: 4px; 
 } 
 
-.dialogpg div {
+.dialog div {
     display: flex;
     justify-content: space-between;
 }
 
-.dialogpg {
+.dialog {
     height: 300px; 
     width: 300px;
     border: 2px solid white;
@@ -146,11 +146,28 @@
     background-color: rgb(87, 87, 87);
 }
 
-.dialogpg h1 {
+.dialog h1 {
     background-color: #7bf0ff;
     height: 33px;
     padding: 6px;
     border-radius: 3px;
+}
+
+.dialog h2 {
+    background-color: #d8d8d8;
+    height: 33px;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 14px;
+    width: 180px;
+}
+
+.python {
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 4px;
+    width: 80px;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 750px) {
