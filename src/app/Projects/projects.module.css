@@ -1,229 +1,229 @@
 .content {
-    display: flex;
-    justify-content: center;
-    color: black;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 50px;
 }
 
 .content2 {
-    display: flex;
-    justify-content: center;
-    color: black;
+  display: flex;
+  justify-content: center;
+  color: black;
 }
 
 .passwordgenerator {
-    width: 280px; 
-    height: 200px; 
-    background-color: rgb(26, 26, 26); 
-    margin-top: 100px;
-    border-radius: 10px;
+  width: 280px;
+  height: 200px;
+  background-color: rgb(26, 26, 26);
+  margin-top: 100px;
+  border-radius: 10px;
 }
 
 .passwordgeneratorimage {
-    position: absolute;
-    border-radius: 4px;
-    margin-left: 30px;
-    margin-top: 20px;
+  position: absolute;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .passwordgeneratorbutton {
-    margin-top: 160px;
-    margin-left: 30px;
-    background-color: #92ffe7;
-    padding: 4px;
-    border-radius: 4px;
-    position: absolute;
+  margin-top: 160px;
+  margin-left: 30px;
+  background-color: #92ffe7;
+  padding: 4px;
+  border-radius: 4px;
+  position: absolute;
 }
 
 .passwordgeneratortext {
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 85px;
-    background-color: #7bf0ff;
-    padding: 4px;
-    border-radius: 4px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 85px;
+  background-color: #7bf0ff;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .portfolio {
-    width: 280px; 
-    height: 200px; 
-    background-color: rgb(26, 26, 26); 
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 10px;
-    transition: 0.5s;
+  width: 280px;
+  height: 200px;
+  background-color: rgb(26, 26, 26);
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 .portfolioimage {
-    position: absolute;
-    border-radius: 4px;
-    margin-left: 30px;
-    margin-top: 20px;
+  position: absolute;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .portfoliobutton {
-    margin-top: 160px;
-    margin-left: 30px;
-    background-color: #a7e7d9;
-    padding: 4px;
-    border-radius: 4px;
-    position: absolute;
+  margin-top: 160px;
+  margin-left: 30px;
+  background-color: #a7e7d9;
+  padding: 4px;
+  border-radius: 4px;
+  position: absolute;
 }
 
 .portfoliotext {
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 85px;
-    background-color: #7bf0ff;
-    padding: 4px;
-    border-radius: 4px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 85px;
+  background-color: #7bf0ff;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .kotlinapp {
-    width: 280px; 
-    height: 400px; 
-    background-color: rgb(26, 26, 26); 
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 10px;
-    transition: 0.5s;
+  width: 280px;
+  height: 400px;
+  background-color: rgb(26, 26, 26);
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 .kotlinappimage {
-    position: absolute;
-    border-radius: 4px;
-    margin-left: 50px;
-    margin-top: 20px;
-    height: 320px;
-    width: 170px;
+  position: absolute;
+  border-radius: 4px;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 320px;
+  width: 170px;
 }
 
 .kotlinapptext {
-    position: absolute;
-    margin-top: 360px;
-    margin-left: 100px;
-    background-color: #7bf0ff;
-    padding: 4px;
-    border-radius: 4px; 
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 100px;
+  background-color: #7bf0ff;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .bot {
-    width: 280px; 
-    height: 400px; 
-    background-color: rgb(26, 26, 26); 
-    margin-top: 100px;
-    border-radius: 10px;
-    transition: 0.5s;
+  width: 280px;
+  height: 400px;
+  background-color: rgb(26, 26, 26);
+  margin-top: 100px;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 .botimage {
-    position: absolute;
-    border-radius: 4px;
-    margin-left: 40px;
-    margin-top: 20px;
-    height: 320px;
-    width: 200px;
+  position: absolute;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 320px;
+  width: 200px;
 }
 
 .bottext {
-    position: absolute;
-    margin-top: 360px;
-    margin-left: 90px;
-    background-color: #7bf0ff;
-    padding: 4px;
-    border-radius: 4px; 
-} 
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 90px;
+  background-color: #7bf0ff;
+  padding: 4px;
+  border-radius: 4px;
+}
 
 .dialog div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dialog {
-    height: 300px; 
-    width: 300px;
-    border: 2px solid white;
-    border-radius: 8px;
-    background-color: rgb(87, 87, 87);
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: rgb(87, 87, 87);
 }
 
 .dialog h1 {
-    background-color: #7bf0ff;
-    height: 33px;
-    padding: 6px;
-    border-radius: 3px;
+  background-color: #7bf0ff;
+  height: 33px;
+  padding: 6px;
+  border-radius: 3px;
 }
 
 .dialog h2 {
-    background-color: #d8d8d8;
-    height: 33px;
-    padding: 6px;
-    border-radius: 3px;
-    margin-top: 14px;
-    width: 180px;
+  background-color: #d8d8d8;
+  height: 33px;
+  padding: 6px;
+  border-radius: 3px;
+  margin-top: 14px;
+  width: 180px;
 }
 
 .python {
-    background-color: yellow;
-    margin-top: 10px;
-    padding: 4px;
-    width: 80px;
-    border-radius: 4px;
+  background-color: yellow;
+  margin-top: 10px;
+  padding: 4px;
+  width: 80px;
+  border-radius: 4px;
 }
 
 .HTML {
-    background-color: rgb(255, 136, 0);
-    margin-top: 10px;
-    padding: 4px;
-    width: 77px;
-    border-radius: 4px;
+  background-color: rgb(255, 136, 0);
+  margin-top: 10px;
+  padding: 4px;
+  width: 77px;
+  border-radius: 4px;
 }
 
 .CSS {
-    background-color: rgb(0, 162, 255);
-    margin-top: 10px;
-    padding: 4px;
-    width: 77px;
-    border-radius: 4px;
+  background-color: rgb(0, 162, 255);
+  margin-top: 10px;
+  padding: 4px;
+  width: 77px;
+  border-radius: 4px;
 }
 
 .JavaScript {
-    background-color: rgb(255, 238, 0);
-    margin-top: 10px;
-    padding: 4px;
-    width: 105px;
-    border-radius: 4px;
+  background-color: rgb(255, 238, 0);
+  margin-top: 10px;
+  padding: 4px;
+  width: 105px;
+  border-radius: 4px;
 }
 
 .test {
-    position: relative;
-    left: -10px;
+  position: relative;
+  left: -10px;
 }
 
 @media screen and (max-width: 750px) {
-   .content {
+  .content {
     display: block;
-   }
+  }
 
-   .content2 {
+  .content2 {
     display: block;
-   }
+  }
 
-   .content div {
+  .content div {
     margin-left: 16%;
-   }
-   
-   .content2 div {
+  }
+
+  .content2 div {
     margin-left: 16%;
-   }
-   
+  }
 }
 
-@media screen and (max-width: 350px) { 
-    .content div {
-        margin-left: 20px;
-    }
-    
-    .content2 div {
-        margin-left: 20px;
-    }
- }
+@media screen and (max-width: 350px) {
+  .content div {
+    margin-left: 20px;
+  }
+
+  .content2 div {
+    margin-left: 20px;
+  }
+}
