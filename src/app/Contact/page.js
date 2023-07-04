@@ -8,11 +8,10 @@ export default function page() {
 
   return (
     <div>
-        <Navbar/>
       <div className={style.contentflexbox}>
       <div className={style.contentbox}>
-        <p>Discord ...</p>
-        <p>Email: ...</p>
+        <p>Discord:</p>
+        <p>Email: <a href="mailto:GescheaftlichGamius@gmx.de" >GescheaftlichGamius@gmx.de</a></p>
         <p>Test</p>
       </div>
       </div>

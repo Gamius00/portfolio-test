@@ -9,8 +9,7 @@ export default function Home() {
   
   return (
 
-    <div>
-      <Navbar/>
+    <>
     <div className={style.hello}>
       <div className={style.content}> 
       <p className={style.fabiustext}>Hello there 👋</p>
@@ -35,6 +34,6 @@ export default function Home() {
     <Image src="/programmerpic.png" width={180} height={180} className={style.picture}/>
     </div>
     </div>
-    </div>
+    </>
   )
 }

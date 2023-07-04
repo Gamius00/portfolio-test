@@ -170,6 +170,35 @@
     border-radius: 4px;
 }
 
+.HTML {
+    background-color: rgb(255, 136, 0);
+    margin-top: 10px;
+    padding: 4px;
+    width: 77px;
+    border-radius: 4px;
+}
+
+.CSS {
+    background-color: rgb(0, 162, 255);
+    margin-top: 10px;
+    padding: 4px;
+    width: 77px;
+    border-radius: 4px;
+}
+
+.JavaScript {
+    background-color: rgb(255, 238, 0);
+    margin-top: 10px;
+    padding: 4px;
+    width: 105px;
+    border-radius: 4px;
+}
+
+.test {
+    position: relative;
+    left: -10px;
+}
+
 @media screen and (max-width: 750px) {
    .content {
     display: block;

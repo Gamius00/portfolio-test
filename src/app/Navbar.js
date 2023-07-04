@@ -73,7 +73,7 @@ export default function Navbar() {
   }
 
   return (
-    <div>
+    <>
     <div className={style.navbar}>
         <a className={style.navelement} href='/'><div><Image src="/home.png" width={30} height={7} className={style.img}/> <p>Home</p></div></a>
         <a className={style.navelement} href='/Projects' ><div><Image src="/document.png" width={30} height={7} className={style.img}/> <p>Projects</p></div></a>
@@ -89,6 +89,6 @@ export default function Navbar() {
     <a id='views' className={style.views2} href="https://hits.sh/portfolio-fabius.vercel.app/"><img alt="Hits" src="https://hits.sh/portfolio-fabius.vercel.app.svg?style=for-the-badge&label=Views&extraCount=5&color=858585"/></a>
     </div>
     </div>
-    </div>
+    </>
   )
 }

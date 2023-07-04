@@ -33,7 +33,6 @@ export default function page() {
 
   return (
     <div>
-      <Navbar/>
       <div className={style.content}>
       <div onClick={click} className={style.passwordgenerator}> 
       <Image src="/password-generator.jpg" width={220} height={100} className={style.passwordgeneratorimage}/>
@@ -66,6 +65,9 @@ export default function page() {
             </form>
             </div>
             <h2>Programminglanguages</h2>
+            <li className={style.HTML}><span className={style.test}>HTML</span></li>
+            <li className={style.CSS}><span className={style.test}>CSS</span></li>
+            <li className={style.JavaScript}><span className={style.test}>JavaScript</span></li>
       </dialog>
 
       <div className={style.content2}>
@@ -82,7 +84,7 @@ export default function page() {
             </form>
             </div>
             <h2>Programminglanguages</h2>
-            <li  className={style.python}>Python</li>
+            <li className={style.python}><span className={style.test}>Python</span></li>
       </dialog>
 
       <div className={style.kotlinapp}> 
