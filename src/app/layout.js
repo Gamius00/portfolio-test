@@ -1,8 +1,8 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 import Navbar from './Navbar'
 
-const inter = Inter({ subsets: ['latin-ext'] })
+const inter = Raleway({ subsets: ['latin-ext'], weight: ["500"] })
 
 export const metadata = {
   title: 'Portfolio-Fabius',

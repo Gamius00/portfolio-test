@@ -20,7 +20,3 @@ body {
   color: rgb(var(--foreground-rgb));
   background: url("background7.png");
 }
-
-* {
-  font-family: 'Poppins', sans-serif;
-}

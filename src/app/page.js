@@ -8,7 +8,6 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
   
   return (
-
     <>
     <div className={style.hello}>
       <div className={style.content}> 
