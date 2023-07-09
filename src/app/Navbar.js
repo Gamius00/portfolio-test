@@ -11,6 +11,7 @@ export default function Navbar() {
     function handleScroll() {
       let windowY = window.scrollY || window.pageYOffset;
       console.log(windowY);
+      const views = document.getElementById("views");
 
       if (imageSrc == "/cross2.png") {
         menudiv.style.backgroundColor = "transparent";
@@ -32,6 +33,8 @@ export default function Navbar() {
           menudiv.style.boxShadow = "none";
         }
       }
+
+      views.style.display = "none";
     }
 
     window.onscroll = handleScroll;
@@ -95,6 +98,17 @@ export default function Navbar() {
               className={style.img}
             />{" "}
             <p>Projects</p>
+          </div>
+        </a>
+        <a className={style.navelement} href="/Skillbar">
+          <div>
+            <Image
+              src="/user.png"
+              width={30}
+              height={7}
+              className={style.img}
+            />{" "}
+            <p>Skillbar</p>
           </div>
         </a>
         <a className={style.navelement} href="/Contact">

@@ -58,7 +58,7 @@
   color: #dbdbdb;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   .picturecontainer {
     display: none;
   }

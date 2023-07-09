@@ -112,7 +112,7 @@
   width: 110px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   .navbar {
     display: none;
   }
