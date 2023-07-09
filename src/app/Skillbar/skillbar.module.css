@@ -16,4 +16,9 @@
   .content {
     display: block;
   }
+
+  .elements {
+    display: flex;
+    justify-content: center;
+  }
 }

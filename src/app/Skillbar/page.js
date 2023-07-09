@@ -36,18 +36,20 @@ export default function page() {
             boxShadow: boxShadows[index],
           }}
           className={style.elements}
-          key={index}
         >
-          <img width={100} src={images[index]} />
-          <p
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              marginTop: "10px",
-            }}
-          >
-            {listelement}
-          </p>
+          <div>
+            <img width={100} src={images[index]} />
+
+            <p
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginTop: "10px",
+              }}
+            >
+              {listelement}
+            </p>
+          </div>
         </div>
       ))}
     </div>
