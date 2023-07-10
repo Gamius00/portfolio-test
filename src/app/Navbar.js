@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import style from "./navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [imageSrc, setImageSrc] = useState("/menu3.png");
@@ -78,7 +79,7 @@ export default function Navbar() {
   return (
     <>
       <div className={style.navbar}>
-        <a className={style.navelement} href="/">
+        <Link className={style.navelement} href="/">
           <div>
             <Image
               src="/home.png"
@@ -88,8 +89,8 @@ export default function Navbar() {
             />{" "}
             <p>Home</p>
           </div>
-        </a>
-        <a className={style.navelement} href="/Projects">
+        </Link>
+        <Link className={style.navelement} href="/Projects">
           <div>
             <Image
               src="/document.png"
@@ -99,8 +100,8 @@ export default function Navbar() {
             />{" "}
             <p>Projects</p>
           </div>
-        </a>
-        <a className={style.navelement} href="/Skillbar">
+        </Link>
+        <Link className={style.navelement} href="/Skillbar">
           <div>
             <Image
               src="/user.png"
@@ -110,8 +111,8 @@ export default function Navbar() {
             />{" "}
             <p>Skillbar</p>
           </div>
-        </a>
-        <a className={style.navelement} href="/Contact">
+        </Link>
+        <Link className={style.navelement} href="/Contact">
           <div>
             <Image
               src="/envelope.png"
@@ -121,8 +122,8 @@ export default function Navbar() {
             />{" "}
             <p>Contact</p>
           </div>
-        </a>
-        <a
+        </Link>
+        <Link
           className={style.views}
           href="https://hits.sh/portfolio-fabius.vercel.app/"
         >
@@ -130,7 +131,7 @@ export default function Navbar() {
             alt="Hits"
             src="https://hits.sh/portfolio-fabius.vercel.app.svg?style=for-the-badge&label=Views&extraCount=5&color=858585"
           />
-        </a>
+        </Link>
       </div>
       <div className={style.navcenter}>
         <div id="menudiv" className={style.menudiv}>

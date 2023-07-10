@@ -14,7 +14,7 @@ export default function page() {
     "rgb(24, 62, 97)",
   ];
 
-  const colors = ["white", "black", "black", "black", "white"];
+  const colors = ["white", "black", "white", "black", "white"];
 
   const images = ["python.png", "html.png", "css.png", "js.png", "react.png"];
 
