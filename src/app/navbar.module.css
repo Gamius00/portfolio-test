@@ -72,6 +72,22 @@
   color: #000000;
 }
 
+.skillbarbutton {
+  margin-top: 290px;
+  display: none;
+  position: absolute;
+  background-color: #8d8d8d;
+  height: 55px;
+  width: 80%;
+  padding-top: 18px;
+  justify-content: center;
+  font-size: 1.1em;
+  transition: 0.3s;
+  margin-right: 10%;
+  border-radius: 9px;
+  color: #000000;
+}
+
 .projectbutton {
   margin-top: 150px;
   display: none;

@@ -47,6 +47,7 @@ export default function Navbar() {
     const homebutton = document.getElementById("homebutton");
     const projectbutton = document.getElementById("projectbutton");
     const contactbutton = document.getElementById("contactbutton");
+    const skillbarbutton = document.getElementById("skillbarbutton");
     const views = document.getElementById("views");
     if (imageSrc === "/menu3.png") {
       setImageSrc("/cross2.png");
@@ -55,11 +56,12 @@ export default function Navbar() {
         menudiv.style.boxShadow =
           "0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 4px white, 0 0 8px white, 0 0 10px white";
       }
-      menudiv.style.height = "310px";
+      menudiv.style.height = "360px";
       menudiv.style.width = "95%";
       homebutton.style.display = "flex";
       projectbutton.style.display = "flex";
       contactbutton.style.display = "flex";
+      skillbarbutton.style.display = "flex";
       views.style.display = "flex";
     } else {
       setImageSrc("/menu3.png");
@@ -72,6 +74,7 @@ export default function Navbar() {
       homebutton.style.display = "none";
       projectbutton.style.display = "none";
       contactbutton.style.display = "none";
+      skillbarbutton.style.display = "none";
       views.style.display = "none";
     }
   };
@@ -153,6 +156,13 @@ export default function Navbar() {
             href="/Projects"
           >
             Projects
+          </a>
+          <a
+            id="skillbarbutton"
+            className={style.skillbarbutton}
+            href="/Skillbar"
+          >
+            Skillbar
           </a>
           <a id="contactbutton" className={style.contactbutton} href="/Contact">
             Contact
