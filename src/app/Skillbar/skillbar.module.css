@@ -2,6 +2,7 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .elements {
@@ -10,15 +11,4 @@
   margin: 30px;
   border-radius: 5px;
   font-weight: bolder;
-}
-
-@media screen and (max-width: 1190px) {
-  .content {
-    display: block;
-  }
-
-  .elements {
-    display: flex;
-    justify-content: center;
-  }
 }
